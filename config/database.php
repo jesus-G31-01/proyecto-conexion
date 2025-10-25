@@ -5,7 +5,7 @@ function getDatabaseConfig() {
     $host = getenv('DB_HOST') ?: 'mysql-server-1.mysql.database.azure.com';
     $port = getenv('DB_PORT') ?: '3306';
     $dbname = getenv('DB_NAME') ?: 'mysql-server-1';
-    $username = getenv('DB_USER') ?: 'jesus123';
+    $username = getenv('DB_USER') ?: 'jesus123@mysql-server-1';
     $password = getenv('DB_PASS') ?: 'contraseña123456@@';
     
     return [
