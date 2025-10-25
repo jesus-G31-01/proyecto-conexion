@@ -1,11 +1,11 @@
 <?php
 // Configuración para MySQL en Azure
 // ⚠️ REEMPLAZA ESTOS DATOS CON LOS TUYOS ⚠️
-define('DB_HOST', 'tu-servidor-mysql.mysql.database.azure.com');
+define('DB_HOST', 'mysql-server-1.mysql.database.azure.com');
 define('DB_PORT', '3306');
-define('DB_NAME', 'nombre_base_datos');
-define('DB_USER', 'tu_usuario@tu-servidor-mysql');
-define('DB_PASS', 'tu_contraseña');
+define('DB_NAME', 'mysql-server-1');
+define('DB_USER', 'jesus123');
+define('DB_PASS', 'contraseña123456@@');
 define('DB_SSL', true);
 
 // Opciones para PDO
